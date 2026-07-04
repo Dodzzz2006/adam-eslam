@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact</title>
+
+<link rel="stylesheet" href="contac.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Coding Academy</div>
+
+<nav>
+
+<a href="contact.html">Contact</a>
+      <a href="courses..html">Courses</a>
+      <a href="Features.html">Features</a>
+      <a href="home.html">Home</a>
+
+</nav>
+
+</header>
+
+<section class="contact">
+
+<h1>Contact Us</h1>
+
+<form id="contactForm">
+
+<input
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+placeholder="Your Email"
+required>
+
+<input
+type="text"
+placeholder="Subject"
+required>
+
+<textarea
+placeholder="Write your message..."
+rows="6"
+required></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+<div class="info">
+
+<h2>Contact Information</h2>
+
+<p> codingacademy@gmail.com</p>
+
+<p> +20 100 123 4567</p>
+
+<p> Cairo, Egypt</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Coding Academy</p>
+
+</footer>
+
+<script>
+
+document
+.getElementById("contactForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Your message has been sent successfully!");
+
+this.reset();
+
+});
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

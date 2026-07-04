@@ -1,0 +1,112 @@
+style
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        
+      
+      color: #fff;
+      background-image: url(img/sora.avif);
+     background-size: 1520px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      
+    }
+
+    .logo {
+      font-size: 50px;
+      font-weight: 700px;
+      margin: 10px;
+    }
+
+    
+
+    nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px; 
+    font-size: 20px;
+    
+}
+
+    nav a {
+      margin: 0 18px;
+      text-decoration: none;
+      color: #ccc;
+      transition: 0.3s;
+      
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+      min-height: 90vh;
+      
+    }
+
+    .hero-text {
+      max-width: 50%;
+     padding: 90px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: 800;
+      margin-top: 20px;
+     
+    }
+
+    .hero-text p {
+      color: #aaa;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    .hero-text .cta {
+      display: inline-block;
+      background: #1f6feb;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .hero-text .cta:hover {
+      background: #388bfd;
+    }
+
+    .hero-img img {
+      width: 400px;
+      border-radius: 20px;
+    }
+
+   
+    @media(max-width: 900px){
+    }
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+
+  
